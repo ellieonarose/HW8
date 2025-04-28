@@ -84,18 +84,18 @@ Part 7:
 
 Reasoning: 
     Knowing -a → makes brain tumor less likely.
-	Knowing d (coma) → needs a cause → makes brain tumor more likely to explain it.
-	So the two pieces of evidence pull in opposite directions:
-	    -a pulls the probability of c down. 
-	    d pulls the probability of c up.
+    Knowing d (coma) → needs a cause → makes brain tumor more likely to explain it.
+    So the two pieces of evidence pull in opposite directions:
+	-a pulls the probability of c down. 
+	d pulls the probability of c up.
     P(c | -a) = 0.05 but since d is true P(c | -a, d) ≈ 0.1739
 	    
     Overall, ancestor usually has more direct and stronger effect than a descendant.
 
 * Other case when (a) is true, and (d) is false. The probability of (b) is 0.49999389717799575, 0.5001206
-Since (b) has ancestor (a) and descendant (d), 
-    a pulls the probability of b up.
-    -d pulls the probability of b down.
+    Since (b) has ancestor (a) and descendant (d), 
+    	a pulls the probability of b up.
+   	-d pulls the probability of b down.
     P(b | a) = 0.8 but since d is false P(b | a, -d) ≈ 0.5
 
 Part 8: 
@@ -167,17 +167,18 @@ Observation:
 
     Gibbs sampling struggles with rare events — variables deep in the chain (like h, i, j, k) have tiny probabilities (like 0.00001 or 0.000001), 
     but in early iterations (10,000 or even 100,000), they were almost never sampled (fractions were zero or close to zero).
-	•	For example, in 10,000 iterations, h, i, j, k were basically never observed.
-	•	Even with 100,000 iterations, the fractions for j and k were still zero!
-	•	Only at 1 million or 10 million iterations did they start appearing at approximately the expected frequency.
+    • For example, in 10,000 iterations, h, i, j, k were basically never observed.
+    • Even with 100,000 iterations, the fractions for j and k were still zero!
+    • Only at 1 million or 10 million iterations did they start appearing at approximately the expected 
+      frequency.
     
 Weakness that we observed:
-    •	Need for massive iteration counts to correctly estimate rare parts of the distribution.
-    •	Slow convergence for low-probability (rare) outcomes.
-	  •	Early samples can completely miss important parts of the probability space.
+    • Need for massive iteration counts to correctly estimate rare parts of the distribution.
+    • Slow convergence for low-probability (rare) outcomes.
+    • Early samples can completely miss important parts of the probability space.
 
 Part 9:
-•	How evidence of an alarm creates or eliminates conditional independence 
+• How evidence of an alarm creates or eliminates conditional independence 
     between a burglary and John calling
     
     Given the structure: B -> A -> J
@@ -200,7 +201,7 @@ Part 9:
     
     Evidence on A D-separates Burglary and John.
 
-•	How evidence of an alarm creates or eliminates conditional independence 
+• How evidence of an alarm creates or eliminates conditional independence 
     between John calling and Mary calling 
     
     Given the structure: J <- A -> M
@@ -221,7 +222,7 @@ Part 9:
 
     Evidence on A D-separates John and Mary.
 
-•	How evidence of an alarm and/or call(s) creates or eliminates conditional independence 
+• How evidence of an alarm and/or call(s) creates or eliminates conditional independence 
     between a burglary and an earthquake
 
     Given the structure: B -> A <- E
