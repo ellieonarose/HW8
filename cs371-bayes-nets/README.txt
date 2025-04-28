@@ -63,19 +63,18 @@ Overall, only when there is evidence of a are b and c truly conditionally indepe
 
 
 Part 4: 
-With no evidence, the likelihood of a is .1999. With the evidence of d, the chances increase to .425. This is because if d is to happen,
+With no evidence, the likelihood of a is about .1999. With the evidence of d, the chances increase to .425. This is because if d is to happen,
 something in the tree above it must have happened. This means that there is a higher chance of a happening than if we didn't know any branches
 occured. 
 
 Part 5:
+All decimals are rounded to the hundreth place
 With no evidence, the chance of d is .32. With false evidence of a, the chances of d decrease to .23. This is because, if we know that a didn't 
-happen, and d is a descendant of a, that means there is a smaller chance that d would even be possible. 
+happen, and d is a descendant of a, that means there is a smaller chance that d would even be possible. Since we know that d will happen if a does, taking away the chances for a make it so d is less likely. 
 
 Part 6:
-With evidence of a coma (d), the likelihood of the patient having a brain tumor (c) is .2 and the probability of them having increased total 
-serum calcium (b) is .8. This is because if the patient is in a coma, it is because of at least one of the two things. When there is evidence of
-a coma and a brain tumor, the chances of there being increased total serum calcium decreases to .5. This is because we already have a cause for 
-the coma, and the second diagnosis is less likely. The same effect occurs if we have evidence of b. The chances of a brain tumor decrease to .125.
+With evidence of a coma (d), the likelihood of the patient having a brain tumor (c) is about.2 and the probability of them having increased total 
+serum calcium (b) is about .8. This is because if the patient is in a coma, it is because of at least one of the two things. When there is evidence of a coma and a brain tumor, the chances of there being increased total serum calcium decreases to .5. This is because we already have a cause for the coma, and the second diagnosis is less likely. The same effect occurs if we have evidence of b. The chances of a brain tumor decrease to .125.
 
 
 Part 7:
